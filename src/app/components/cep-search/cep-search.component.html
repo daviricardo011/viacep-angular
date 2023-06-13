@@ -1,0 +1,29 @@
+<main>
+  <div class="container">
+    <h3>Via CEP - Angular</h3>
+    <div>
+      <label for="zipCode">CEP:</label>
+      <input type="text" id="zipCode" placeholder="Digite aqui" maxlength="8" [(ngModel)]="zipCode" (input)="onInputZipCode()">
+    </div>
+    <div>
+      <label for="publicPlace">Rua:</label>
+      <input disabled id="publicPlace" [(ngModel)]="publicPlace">
+    </div>
+    <div>
+      <label for="complement">Complemento:</label>
+      <input disabled id="complement" [(ngModel)]="complement">
+    </div>
+    <div>
+      <label for="district">Bairro:</label>
+      <input disabled id="district" [(ngModel)]="district">
+    </div>
+    <div>
+      <label for="city">Cidade:</label>
+      <input disabled id="city" [(ngModel)]="city">
+    </div>
+    <div>
+      <label for="state">Estado:</label>
+      <input disabled id="state" [(ngModel)]="state">
+    </div>
+  </div>
+</main>
